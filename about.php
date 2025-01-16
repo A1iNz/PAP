@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-center mb-3 py-2 mb-4 border-bottom navbar-dark bg-dark fixed-top">
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.php" class="nav-link px-2 link-light">Home</a></li>
+                    <li><a href="about.php" class="nav-link px-2 link-active">About Me</a></li>
+                    <li><a href="portfolio.php" class="nav-link px-2 link-light">Portofolio</a></li>
+                    <li><a href="https://wa.me/+6282142830175" target="_blank" class="nav-link px-2 link-light">Contact Person</a></li>
+                </ul>
+            </header>
+        </div>
+
+        <div class="container text-center" style="margin-top: 8%; margin-bottom: 8%;">
+            <h1 class="display-4 fw-bold mb-4 ">Gilang Fajar Nur Ainun</h1>
+            <div class="overflow-hidden">
+                <div class="container px-5">
+                    <img src="pp.jpg" class="img-fluid border rounded-3 mb-4" alt="Example image" width="200" height="100" loading="lazy">
+                </div>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Mahasiswa Teknik Informatika di Universitas 17 Agustus 1945 Surabaya yang memiliki jika rajin dan pantang menyerah. Aktif dalam keanggotaan Organisasi Mahasiswa (Himpunan) dan Unit Kegiatan Mahasiswa (UKM). Memiliki ketertarikan tinggi dibidang Web Development dan Backend Programmer. Pernah magang 1 tahun di Haltec Software & Wisnu Group dan Masih Banyak Pengalaman yang Lain dan akan saya jelaskan dibawah.</p>
+            </div>
+        </div>
+
+        <div class="container " id="icon-grid">
+            <h2 class="pb-2 border-bottom">Pengalaman</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+                    <div>
+                    <p class="fw-bold mb-0 fs-5 ">Programmer di Haltec</p>
+                    <p class="fw-bold mb-0 fs-6 ">Juli 2020 - Juli 2021</p>
+                    <p>saya pernah magang 1 tahun di Haltec Software pada juli 2020 - juli 2021. saya dipercaya untuk mengurusi web development dan backend programmer untuk aplikasi Point Of Sales (POS) apotik Wisnu Farma Group.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+                    <div>
+                    <p class="fw-bold mb-0 fs-5">Kadiv RT Himatifta</p>
+                    <p class="fw-bold mb-0 fs-6">Desember 2023 - Desember 2024</p>
+                    <p>saya pernah menjabar menjadi kepala divisi Rumah Tangga di himpunan mahasiswa selama 1 periode (semester 3-5).</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+                    <div>
+                    <p class="fw-bold mb-0 fs-5">Ketupel Satgas BEM-FT</p>
+                    <p class="fw-bold mb-0 fs-6">Desember 2024 - januari 2025</p>
+                    <p>Saya pernah menjadi ketua pelaksana satuan tugas badan eksekutif mahasiswa fakultas teknik yang bertugas untuk membuat acara pemilihan ketua bem fakultas teknik periode 2025-2026.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+                    <div>
+                    <p class="fw-bold mb-0 fs-5">Fullstack di Yayasan Nurul Ulum</p>
+                    <p class="fw-bold mb-0 fs-6">Januari 2025 - Sekarang</p>
+                    <p>Saya Magang di yayasan  Nurul Ulum sebagai Programmer untuk pembuatan aplikasi absensi dan pembayaran SPP.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container px-4 " id="custom-cards">
+            <h2 class="pb-2 border-bottom">Dokumentasi</h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb -4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-muted">&copy; 2025 Gilang Ainun</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                </ul>
+            </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
